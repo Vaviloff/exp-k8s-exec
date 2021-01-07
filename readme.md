@@ -11,3 +11,15 @@ kubectl run -i --tty busybox --image=busybox --restart=Never -- sh
 ```bash
 mkdir /example && echo '{ "id": "junx8nvi8visygivlxvgilx" }' > /example/data.json
 ```
+
+4. Run:
+```bash
+yarn
+node index.js
+```
+
+5. Should get result:
+```bash
+Exited with status: Success
+Retrieved instance ID from pod: junx8nvi8visygivlxvgilx
+```
